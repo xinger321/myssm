@@ -1,0 +1,8 @@
+com/mooc/bean/DemoExample$Criterion.class
+com/mooc/bean/DemoExample.class
+com/mooc/mapper/DemoMapper.class
+com/mooc/bean/Demo.class
+com/mooc/bean/DemoExample$Criteria.class
+com/mooc/bean/DemoExample$GeneratedCriteria.class
+com/mooc/controller/DemoController.class
+com/mooc/service/DemoService.class

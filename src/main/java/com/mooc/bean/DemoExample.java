@@ -3,7 +3,7 @@ package com.mooc.bean;
 import java.util.ArrayList;
 import java.util.List;
 
-public class    DemoExample {
+public class DemoExample {
     protected String orderByClause;
 
     protected boolean distinct;

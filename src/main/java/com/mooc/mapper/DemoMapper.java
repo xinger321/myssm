@@ -2,7 +2,9 @@ package com.mooc.mapper;
 
 import com.mooc.bean.Demo;
 import com.mooc.bean.DemoExample;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface DemoMapper {

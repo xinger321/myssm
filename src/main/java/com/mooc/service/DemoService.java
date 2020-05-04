@@ -12,8 +12,8 @@ import java.util.Optional;
 public class DemoService {
     @Autowired
     private DemoMapper demoMapper;
-    
-    public Demo getById(Long id){
+
+    public Demo getById(Long id) {
         return Optional.ofNullable(demoMapper.selectByPrimaryKey(id)).orElse(null);
     }
 }

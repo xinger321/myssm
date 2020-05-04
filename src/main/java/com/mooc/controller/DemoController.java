@@ -16,11 +16,11 @@ import java.util.Optional;
 public class DemoController {
     @Autowired
     private DemoService demoService;
-    
+
     @RequestMapping("/hello/{id}")
     @ResponseBody
-    public String hello(@PathVariable(value = "id") Long id){
+    public String hello(@PathVariable(value = "id") Long id) {
         return Optional.ofNullable(demoService.getById(id)).map(Demo::toString).orElse("empty string");
-        
+
     }
 }

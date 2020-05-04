@@ -12,6 +12,6 @@
 
     <!-- 加载 映射文件 -->
     <mappers>
-        <mapper resource="mapper/DemoMapper.xml" />
+        <mapper resource="mapper/DemoMapper.xml"/>
     </mappers>
 </configuration>
